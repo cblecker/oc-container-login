@@ -12,11 +12,16 @@ registry credentials in the macOS Keychain and so ignores the files
 [container]: https://github.com/apple/container
 
 ## Installation
-There are two ways to install this plugin:
+There are three ways to install this plugin:
 
 Go-based install:
 ```bash
 go install github.com/cblecker/oc-container-login@latest
+```
+
+Homebrew install:
+```bash
+brew install cblecker/tap/oc-container-login
 ```
 
 Download from releases page: https://github.com/cblecker/oc-container-login/releases/latest
